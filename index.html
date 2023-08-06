@@ -2,47 +2,63 @@
 <html>
     <head>
         <title>Catherine Earl- Data Scientist</title>
-        <style>
-            img {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            * {
-                box-sizing: border-box;
-            }
-
-            .column {
-                float: left;
-                width: 33.33%;
-                padding: 5px;
-            }
-
-            .row: :after{
-                content: "";
-                clear: both;
-                display: table;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     </head>
     <body>
-        <div1 id="myContainer">
-            <img src="img/Catherine Earl!.png" alt= "Catherine Earl!" style="width:50%">
-        </div1>
-        <div>
-            <img src="img/profile.png" alt= "profile" style= "width:70%">
+
+    <div class="wrapper">
+            <div class="side_bar">
+                <div class="side_bar_top">
+                    <div class="profile_info">
+                        <h3>Catherine Earl</h3>
+                        <p>catherineearl8@gmail.com</p>
+                    </div>
+                </div>
+                <div class="side_bar_bottom">
+                    <ul>
+                        <li class="active">
+                            <span class="top_curve"></span>
+                            <a href="index.html">
+                                <span class="icon"><i class="fas fa-home"></i></span>
+                                <span class="item">DashBoard</span></a>
+                            <span class="bottom_curve"></span>
+                        </li>
+                        <li>
+                            <span class ="top_curve"></span>
+                            <a href="projects.html">
+                                <span class="item">Projects</span></a>
+                            <span class="bottom_curve"></span>
+                        </li>
+                        <li>
+                            <span class ="top_curve"></span>
+                            <a href="hire_me.html">
+                                <span class="item">Hire Me</span></a>
+                            <span class="bottom_curve"></span>
+                        </li>
+                        <li>
+                            <span class ="top_curve"></span>
+                            <a href="work_experience.html">
+                                <span class="item">Work experience</span></a>
+                            <span class="bottom_curve"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <div class=".main_container">
+            <img src = "img/Catherine Earl!.png" style="width: 50%">
+            <h2>About Me</h2>
+            <p> With an MSC in Finance and Investment, Catherine is a Financial Auditor and Machine learning engineer with many years of experience servicing high profile clients with turnovers of £10m+.</p>
+            <p> Her experience ranges from Audit matters to Tax and Corporate finance matters.</p>
+            <p> She has over 5 years experience developing a rapport with clients advising on strategy and internal control with experience in corporate governance</p>
+            <p> She has worked on a wide variety of projects within finance, with knowledge of financial instruments and FCA regulation.</p>
+            <p> More she recently transitioned into machine learning, using frameworks such Keras, Pandas and Numpy and visitation tools such as MATLAB.</p>
+            <p> She has developed expertise in data management and financial modeling using python developing quantitative analysis skills.</p>
+            <p> Her skill strength is in the ability to communicate at all levels and balancing the needs of different stakeholders.</p>
+            <p> She has the ability to collaborate to achieve a shared outcome. </p>
+            <p> Recently, she has incorporated Machine Learning models and grown an interest in how artificial intelligence can shape daily lives.</p>
         </div>
-        <div class="row">
-            <div class="column">
-                <a href= "hire_me.html"><img src="img/hire_me.png" alt= "hire_me" style="width:50%"></a>
-            </div>
-            <div class="column">
-                <a href= "work_experience.html"><img src="img/work_experience.png" alt= "work experience" style="width:100%"></a>
-            </div>
-            <div class="column">
-                <a href= "projects.html"><img src="img/projects.png" alt= "Projects" style="width:50%"></a>
-            </div>
-        </div>
+    </div>
+    <script src="script.js"></script>
     </body>
 </html>

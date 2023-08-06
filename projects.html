@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            img {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            * {
-                box-sizing: border-box;
-            }
-
-            .column {
-                float: left;
-                width: 33.33%;
-                padding: 5px;
-            }
-
-            .row: :after{
-                content: "";
-                clear: both;
-                display: table;
-            }
-        </style>
         <title>CE Projects</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     </head>
     <body>
-        <div id= "Projects 2">
-            <img src ="img/Project_title.png" alt="title" style="width:25%">
-            <img src ="img/project_list.png" alt="project" style="width: 75%">
-            <style>
-                img {
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-            </style>
-            <div class="row">
-                <div class="column">
-                    <a href= "hire_me.html"><img src="img/hire_me.png" alt= "hire_me" style="width:50%"></a>
+        <div class="wrapper">
+                <div class="side_bar">
+                    <div class="side_bar_top">
+                        <div class="profile_info">
+                            <h3>Catherine Earl</h3>
+                            <p>catherineearl8@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="side_bar_bottom">
+                        <ul>
+                            <li>
+                            <span class="top_curve"></span>
+                                <a href="index.html">
+                                    <span class="icon"><i class="fas fa-home"></i></span>
+                                    <span class="item">DashBoard</span></a>
+                                    <span class="bottom_curve"></span>
+                            </li>
+                            <li class="active">
+                            <span class ="top_curve"></span>
+                                <a href="projects.html">
+                                    <span class="item">Projects</span></a>
+                                    <span class="bottom_curve"></span>
+                            </li>
+                            <li>
+                                <span class ="top_curve"></span>
+                                <a href="hire_me.html">
+                                    <span class="item">Hire Me</span></a>
+                                    <span class="bottom_curve"></span>
+                            </li>
+                            <li>
+                                <span class ="top_curve"></span>
+                                <a href="work_experience.html">
+                                    <span class="item">Work experience</span></a>
+                                <span class="bottom_curve"></span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="column">
-                    <a href= "index.html"><img src="img/home_page.png" alt= "home_page" style="width:50%"></a>
-                </div>
-                <div class="column">
-                    <a href= "work_experience.html"><img src="img/work_experience.png" alt= "work experience" style="width:100%"></a>
-                </div>
-            </div>
+        <div class="main_container">
+            <h3> Recommended youtube channels using a random forest regression.</h3>
+            <p> Training data from csv using Pandas Dataframe.</p>
+            <p> Produced a Random Forest Algorithm and classifier to make predictions.</p>
+            <h3> Performed creation of python script for downloading and transforming stock data</h3>
+            <p> Bought in data from Yahoo API and using pandas dataframe and showing candlestick graphs using MATLAB</p>
+            <h3> A program using yahoo financials to obtain fundamental information for technical analysis.</h3>
+            <p> Scraped data from Yahoo API and showed a visual representation of the data using MATLAB</p>
+            <h3>Created a custom gradient boosting algorithm to predict a merger wave using NumPy and pandas</h3>
+            <p> Scraped data from Yahoo API, reformatted the data by using pandas dataframe</p>
+            <p>Used NumPy and MATLAB to create a custom Gradient boosting algorithm to predict the likelihood of Merger wave.</p>
+            <h3> Pre-processed medical images and put them through a convolutional neural network.</h3>
+            <p> Processed dicom images.</p>
+            <p> Created CNN through python using the images which I pre-processed.</p>
+            <h3>Created an app through React native using java script.</h3>
+            <p> Created app adding in camera features to an android phone and a 2d mesh to add filters.</p>
+            <p> Added a CNN and Facial recognition (In progress)</p>
+            <h3>Created an expense app to record expenses using node.js.</h3>
+            <p> Created an app using node.js and implemented mysql 2 through node.js</p>
+            <p> Added front-end development using CSS and HTML </p>
         </div>
-        <div id = "Coding_Projects">
-
-        </div>
+    </div>
+    <script src="script.js"></script>
     </body>
